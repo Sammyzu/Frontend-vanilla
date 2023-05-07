@@ -22,12 +22,6 @@ h1 {
   padding: 50px;
 }
 
-/* .container .juego:last-child {
-  justify-self: center;
-  width: calc(1fr - 50px);
-  grid-column-start: span 4;
-} */
-
 .titulo {
   display: inline-block;
   font-weight: bold;
