@@ -1,4 +1,57 @@
-h1 {
-  color: white;
+/* Selectores: */
+
+/* Elementos */
+
+body {
   background-color: black;
+  font-family: "Courier New", Courier, monospace;
+  color: #fefefe;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.juego {
+  padding: 50px;
+}
+
+.titulo {
+  display: inline-block;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 50ch;
+}
+
+.consola {
+  display: grid;
+  font-size: 13px;
+}
+
+img {
+  display: grid;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 150px;
+  height: 200px;
+}
+
+p {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: lighter;
+  padding: 0 50px;
+}
+
+em {
+  font-size: 18px;
 }
