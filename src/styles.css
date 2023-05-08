@@ -57,16 +57,13 @@ em {
 }
 
 .compra {
-  display: grid;
+  display: inline-block;
   border-style:ridge;
   border-color: rgba(66, 165, 231, 0.973);
   border-width: 2px;
   border-radius: 5px;
   background-color: rgb(0, 0, 0);
   font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-  margin: auto;
+  margin: 0 auto;
   width: 400px;
-  height: 100px;
 }
