@@ -15,21 +15,33 @@ const videojuegos = listaJuegos.map((juego) => {
     `;
 });
 
-function hacerCheckout() {
-  alert("Boton clickeado!");
-}
-
 const presupuesto = 300;
 
-let juegosSeleccionados = 0;
+let juegosSeleccionados = 1;
 
-let total = 0;
+let total = 60;
 
 document.getElementById("presupuesto").innerText = "$" + presupuesto;
 
 document.getElementById("juegos-seleccionados").innerText = juegosSeleccionados;
 
 document.getElementById("total").innerText = "$" + total;
+
+function hacerCheckout() {
+  alert(
+    "presupuesto:" +
+      " " +
+      presupuesto +
+      "\n" +
+      "Cantidad de juegos:" +
+      " " +
+      juegosSeleccionados +
+      "\n" +
+      "total:" +
+      " " +
+      total
+  );
+}
 
 document.getElementById("juegos").innerHTML = videojuegos.join("");
 
