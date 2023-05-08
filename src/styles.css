@@ -4,7 +4,7 @@
 
 body {
   background-color: black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   color: #fefefe;
 }
 
@@ -36,7 +36,13 @@ h1 {
   font-size: 13px;
 }
 
-img {
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+
+.juego img {
   display: grid;
   padding-top: 10px;
   margin: 0 auto;
@@ -56,17 +62,61 @@ em {
 }
 
 .compra {
-  border-style:ridge;
+  display: grid;
+  justify-content: center;
+  border-style: ridge;
   position: sticky;
   bottom: 0;
-  padding: 20px;
+  float: right;
+  padding: 0 20px;
   border-style: ridge;
-  border-color: rgba(66, 165, 231, 0.973);
+  border-color: greenyellow;
   border-width: 2px;
   border-radius: 5px;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   font-weight: bold;
-  margin: 0 auto;
-  width: 400px;
-  height: 100px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul h3 {
+  margin-top: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+li em {
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.checkout-btn {
+  margin: 1rem 0;
+  appearance: none;
+  background: rgb(72, 196, 218);
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+  padding: 1em;
+  position: relative;
+}
+
+.checkout-btn:hover {
+  filter: brightness(1.1);
+}
+
+.checkout-btn:hover > span {
+  transform: scale(1.05);
+}
+
+.checkout-btn span {
+  display: block;
+  position: relative;
+  z-index: 1;
 }

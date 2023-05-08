@@ -1,4 +1,4 @@
-import listaJuegos from '../static/videojuegos.json';
+import listaJuegos from "../static/videojuegos.json";
 
 const videojuegos = listaJuegos.map((juego) => {
   return `<div class="juego">
@@ -15,4 +15,24 @@ const videojuegos = listaJuegos.map((juego) => {
     `;
 });
 
-document.getElementById('juegos').innerHTML = videojuegos.join('');
+function hacerCheckout() {
+  alert("Boton clickeado!");
+}
+
+const presupuesto = 300;
+
+let juegosSeleccionados = 0;
+
+let total = 0;
+
+document.getElementById("presupuesto").innerText = "$" + presupuesto;
+
+document.getElementById("juegos-seleccionados").innerText = juegosSeleccionados;
+
+document.getElementById("total").innerText = "$" + total;
+
+document.getElementById("juegos").innerHTML = videojuegos.join("");
+
+const botonCheckout = document.querySelector(".checkout-btn");
+
+botonCheckout.addEventListener("click", hacerCheckout);

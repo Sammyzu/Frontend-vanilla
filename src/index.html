@@ -7,16 +7,22 @@
   </head>
   <body>
     <div id="app">
+      <img class="logo" src="https://media0.giphy.com/avatars/dianapietrzyk/wWrk0vNBjwQp.gif" />
       <h1>Videojuegos</h1>
       <div id="juegos" class="container">
       </div>
       <div class="compra">
-        Compra actual
         <ul>
-        <li>Dinero: $300</li>
-        <li>Juegos Seleccionados: 1</li>
-        <li>Total: $70</li>
-        <ul/>
+        <h3> Compra Actual </h3>
+        <li>Dinero: <em id="presupuesto"></em></li>
+        <li>Juegos: <em id="juegos-seleccionados"></em></li>
+        <li>Total: <em id="total"></em></li>
+        </ul>
+        <button class="checkout-btn">
+          <span>
+            Checkout
+          </span>
+        </button>
       </div>
     </div>
     <script type="module" src="index.js"></script>

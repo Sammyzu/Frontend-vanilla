@@ -33,5 +33,111 @@
     "imagen": "images/super-smash-bros-switch.jpg",
     "descripcion": "Derrota a Master Hand en un multiverso de personajes",
     "precio": 60
+  },
+  {
+    "titulo": "Code Vein",
+    "consola": "Xbox One",
+    "imagen": "images/code-vein-xbox.jpg",
+    "descripcion": "Derrota vampiros al estilo de dark souls con un toque anime",
+    "precio": 60
+  },
+  {
+    "titulo": "Animal Crossing New Horizons",
+    "consola": "Nintendo Switch",
+    "imagen": "images/animal-crossing-new-horizons-switch.jpg",
+    "descripcion": "Relajate con tom nook cobrandote impuestos",
+    "precio": 70
+  },
+  {
+    "titulo": "Cuphead",
+    "consola": "Xbox One",
+    "imagen": "images/cuphead-xbox-one.jpg",
+    "descripcion": "El dark souls de las plataformas",
+    "precio": 60
+  },
+  {
+    "titulo": "Dark Souls lll",
+    "consola": "Xbox One",
+    "imagen": "images/dark-souls-lll-xbox-one.jpg",
+    "descripcion": "Vuelve a dar vida a la llama primigenea o vuelvete el señor oscuro",
+    "precio": 60
+  },
+  {
+    "titulo": "Doom",
+    "consola": "PS4",
+    "imagen": "images/doom-ps4.jpg",
+    "descripcion": "Matar demonios nunca fue tan relajante",
+    "precio": 60
+  },
+  {
+    "titulo": "Doom Eternal",
+    "consola": "PS4",
+    "imagen": "images/doom-eternal-ps4.jpg",
+    "descripcion": "Matar demonios nunca fue tan relajante 2",
+    "precio": 60
+  },
+  {
+    "titulo": "Dragon Ball FighterZ",
+    "consola": "PS4",
+    "imagen": "images/dragon-ball-fighterz-ps4.jpg",
+    "descripcion": "Dragonball al mejor estilo de mortal kombat",
+    "precio": 50
+  },
+  {
+    "titulo": "Halo 5",
+    "consola": "Xbox One",
+    "imagen": "images/halo-5-xbox.jpg",
+    "descripcion": "Master chief se vuelve un simp con una ia",
+    "precio": 60
+  },
+  {
+    "titulo": "Hollow Knight",
+    "consola": "PS4",
+    "imagen": "images/hollow-knight-ps4.jpg",
+    "descripcion": "Nadie sabe porque no es goty",
+    "precio": 50
+  },
+  {
+    "titulo": "Kingdom Hearts 3",
+    "consola": "PS4",
+    "imagen": "images/kingdom-hearts-lll.jpg",
+    "descripcion": "El poder de la amistad lo puede todo",
+    "precio": 40
+  },
+  {
+    "titulo": "Mario Karts 8 Deluxe",
+    "consola": "Nintendo Switch",
+    "imagen": "images/mario-kart-8-deluxe-switch.jpg",
+    "descripcion": "Rompe tus amistades con carreras divertidas",
+    "precio": 70
+  },
+  {
+    "titulo": "Payday 2",
+    "consola": "PS4",
+    "imagen": "images/payday-2-ps4.jpg",
+    "descripcion": "Roba junto a tus amigos con sigilo o empiezen el tiroteo como en latam",
+    "precio": 60
+  },
+  {
+    "titulo": "Persona 5 Royal",
+    "consola": "PS4",
+    "imagen": "images/persona-5-royal-ps4.jpg",
+    "descripcion": "Shin megami tensei pero facil",
+    "precio": 60
+  },
+  {
+    "titulo": "Project Cars 2",
+    "consola": "Xbox One",
+    "imagen": "images/project-cars-2-xbox.jpg",
+    "descripcion": "Simulador de carreras realista",
+    "precio": 60
+  },
+  {
+    "titulo": "Watch Dogs",
+    "consola": "Xbox One",
+    "imagen": "images/watch-dogs-xbox.jpg",
+    "descripcion": "Ser hacker siempre fue lo mejor del mundo",
+    "precio": 50
   }
 ]
+  
