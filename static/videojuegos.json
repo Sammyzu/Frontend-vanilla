@@ -1,0 +1,37 @@
+[
+  {
+    "titulo": "Hogwarts Legacy",
+    "consola": "PS5",
+    "imagen": "images/hogwarts-legacy.jpg",
+    "descripcion": "El videojuego inspirado en el universo de Harry Potter",
+    "precio": 70
+  },
+  {
+    "titulo": "God of War: Ragnarok",
+    "consola": "PS5",
+    "imagen": "images/god-of-war-ragnarok-ps5.jpg",
+    "descripcion": "Aventuras Nordicas con Kratos y Atreus",
+    "precio": 70
+  },
+  {
+    "titulo": "Shin Megami Tensei V",
+    "consola": "Nintendo Switch",
+    "imagen": "images/shin-megami-tensei-V.jpg",
+    "descripcion": "Recluta demonios al estilo pokemon en Tokyo",
+    "precio": 60
+  },
+  {
+    "titulo": "Elden Ring",
+    "consola": "PS5",
+    "imagen": "images/elden-ring-ps5.jpg",
+    "descripcion": "Dark Souls pero mundo abierto?",
+    "precio": 60
+  },
+  {
+    "titulo": "Super Smash Bros: Ultimate",
+    "consola": "Nintendo Switch",
+    "imagen": "images/super-smash-bros-switch.jpg",
+    "descripcion": "Derrota a Master Hand en un multiverso de personajes",
+    "precio": 60
+  }
+]
