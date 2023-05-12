@@ -42,7 +42,6 @@ const Home = () => {
   let valorTotal = 0;
 
   const presupuesto = document.getElementById("presupuesto");
-  console.log("presupuesto => ", presupuesto);
   const cantidadJuegos = document.getElementById("juegos-seleccionados");
   const total = document.getElementById("total");
   presupuesto.innerText = "$" + valorPresupuesto;
