@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "titulo": "Hogwarts Legacy",
     "consola": "PS5",
     "imagen": "images/hogwarts-legacy.jpg",
@@ -7,6 +8,7 @@
     "precio": 70
   },
   {
+    "id": 2,
     "titulo": "God of War: Ragnarok",
     "consola": "PS5",
     "imagen": "images/god-of-war-ragnarok-ps5.jpg",
@@ -14,6 +16,7 @@
     "precio": 70
   },
   {
+    "id": 3,
     "titulo": "Shin Megami Tensei V",
     "consola": "Nintendo Switch",
     "imagen": "images/shin-megami-tensei-V.jpg",
@@ -21,6 +24,7 @@
     "precio": 60
   },
   {
+    "id": 4,
     "titulo": "Elden Ring",
     "consola": "PS5",
     "imagen": "images/elden-ring-ps5.jpg",
@@ -28,6 +32,7 @@
     "precio": 60
   },
   {
+    "id": 5,
     "titulo": "Super Smash Bros: Ultimate",
     "consola": "Nintendo Switch",
     "imagen": "images/super-smash-bros-switch.jpg",
@@ -35,6 +40,7 @@
     "precio": 60
   },
   {
+    "id": 6,
     "titulo": "Code Vein",
     "consola": "Xbox One",
     "imagen": "images/code-vein-xbox.jpg",
@@ -42,6 +48,7 @@
     "precio": 60
   },
   {
+    "id": 7,
     "titulo": "Animal Crossing New Horizons",
     "consola": "Nintendo Switch",
     "imagen": "images/animal-crossing-new-horizons-switch.jpg",
@@ -49,6 +56,7 @@
     "precio": 70
   },
   {
+    "id": 8,
     "titulo": "Cuphead",
     "consola": "Xbox One",
     "imagen": "images/cuphead-xbox-one.jpg",
@@ -56,6 +64,7 @@
     "precio": 60
   },
   {
+    "id": 9,
     "titulo": "Dark Souls III",
     "consola": "Xbox One",
     "imagen": "images/dark-souls-lll-xbox-one.jpg",
@@ -63,6 +72,7 @@
     "precio": 60
   },
   {
+    "id": 10,
     "titulo": "Doom",
     "consola": "PS4",
     "imagen": "images/doom-ps4.jpg",
@@ -70,6 +80,7 @@
     "precio": 60
   },
   {
+    "id": 11,
     "titulo": "Doom Eternal",
     "consola": "PS4",
     "imagen": "images/doom-eternal-ps4.jpg",
@@ -77,6 +88,7 @@
     "precio": 60
   },
   {
+    "id": 12,
     "titulo": "Dragon Ball FighterZ",
     "consola": "PS4",
     "imagen": "images/dragon-ball-fighterz-ps4.jpg",
@@ -84,6 +96,7 @@
     "precio": 50
   },
   {
+    "id": 13,
     "titulo": "Halo 5",
     "consola": "Xbox One",
     "imagen": "images/halo-5-xbox.jpg",
@@ -91,6 +104,7 @@
     "precio": 60
   },
   {
+    "id": 14,
     "titulo": "Hollow Knight",
     "consola": "PS4",
     "imagen": "images/hollow-knight-ps4.jpg",
@@ -98,6 +112,7 @@
     "precio": 50
   },
   {
+    "id": 15,
     "titulo": "Kingdom Hearts 3",
     "consola": "PS4",
     "imagen": "images/kingdom-hearts-lll.jpg",
@@ -105,6 +120,7 @@
     "precio": 40
   },
   {
+    "id": 16,
     "titulo": "Mario Karts 8 Deluxe",
     "consola": "Nintendo Switch",
     "imagen": "images/mario-kart-8-deluxe-switch.jpg",
@@ -112,6 +128,7 @@
     "precio": 70
   },
   {
+    "id": 17,
     "titulo": "Payday 2",
     "consola": "PS4",
     "imagen": "images/payday-2-ps4.jpg",
@@ -119,6 +136,7 @@
     "precio": 60
   },
   {
+    "id": 18,
     "titulo": "Persona 5 Royal",
     "consola": "PS4",
     "imagen": "images/persona-5-royal-ps4.jpg",
@@ -126,6 +144,7 @@
     "precio": 60
   },
   {
+    "id": 19,
     "titulo": "Project Cars 2",
     "consola": "Xbox One",
     "imagen": "images/project-cars-2-xbox.jpg",
@@ -133,6 +152,7 @@
     "precio": 60
   },
   {
+    "id": 20,
     "titulo": "Watch Dogs",
     "consola": "Xbox One",
     "imagen": "images/watch-dogs-xbox.jpg",

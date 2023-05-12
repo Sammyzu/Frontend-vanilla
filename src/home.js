@@ -41,6 +41,10 @@ const Home = () => {
   let valorJuegos = 0;
   let valorTotal = 0;
 
+  let juegosSeleccionados = [];
+
+  localStorage.removeItem("juegosSeleccionados");
+
   const presupuesto = document.getElementById("presupuesto");
   const cantidadJuegos = document.getElementById("juegos-seleccionados");
   const total = document.getElementById("total");
@@ -48,7 +52,12 @@ const Home = () => {
   cantidadJuegos.innerText = valorJuegos;
   total.innerText = "$" + valorTotal;
 
-  function hacerCheckout() {}
+  function hacerCheckout() {
+    localStorage.setItem(
+      "juegosSeleccionados",
+      JSON.stringify(juegosSeleccionados)
+    );
+  }
 
   const juegos = document.getElementById("juegos");
   videojuegos.forEach((juego) => {
@@ -64,12 +73,26 @@ const Home = () => {
     "input[type=checkbox][name=juego-seleccionado]"
   );
 
-  const seleccionarJuego = (event) => {
+  const seleccionarJuego = (event, juego) => {
     if (event.target.checked) {
       valorJuegos += 1;
     } else {
       valorJuegos -= 1;
     }
+
+    const seleccionado =
+      juegosSeleccionados.length > 0
+        ? juegosSeleccionados.every((j) => j.id === juego.id)
+        : false;
+
+    if (event.target.checked && !seleccionado) {
+      juegosSeleccionados.push(juego);
+    } else {
+      juegosSeleccionados = juegosSeleccionados.filter(
+        (j) => j.id !== juego.id
+      );
+    }
+
     cantidadJuegos.innerText = valorJuegos;
   };
 
@@ -99,11 +122,11 @@ const Home = () => {
   };
 
   const checkboxClick = (index) => {
-    const precio = listaJuegos[index].precio;
+    const juego = listaJuegos[index];
     return (event) => {
-      seleccionarJuego(event);
-      precioAcumulado(event, precio);
-      restaPresupuesto(event, precio);
+      seleccionarJuego(event, juego);
+      precioAcumulado(event, juego.precio);
+      restaPresupuesto(event, juego.precio);
     };
   };
 
