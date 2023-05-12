@@ -107,11 +107,17 @@ li em {
   position: relative;
 }
 
-.checkout-btn:hover {
+.checkout-btn:disabled {
+  background: rgba(72, 196, 218, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  cursor: default;
+}
+
+.checkout-btn:enabled:hover {
   filter: brightness(1.1);
 }
 
-.checkout-btn:hover > span {
+.checkout-btn:enabled:hover>span {
   transform: scale(1.05);
 }
 
