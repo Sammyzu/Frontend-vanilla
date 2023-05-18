@@ -57,6 +57,7 @@ const Home = () => {
       "juegosSeleccionados",
       JSON.stringify(juegosSeleccionados)
     );
+    window.location.href = "/checkout";
   }
 
   const juegos = document.getElementById("juegos");
