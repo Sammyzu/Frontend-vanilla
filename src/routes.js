@@ -1,5 +1,6 @@
 import home from "./pages/home.html";
 import checkout from "./pages/checkout.html";
+import error from "./pages/error.html";
 import Home from "./home";
 import Checkout from "./checkout";
 
@@ -15,7 +16,7 @@ const rutas = {
     script: Checkout,
   },
   error: {
-    template: "<h2> No encontrado </h2>",
+    template: error,
   },
 };
 
